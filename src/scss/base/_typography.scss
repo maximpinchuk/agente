@@ -1,0 +1,39 @@
+// Gotham Bold
+@font-face {
+    font-family: 'Gotham';
+	src: url('../fonts/Gotham/GothamRounded-Bold.woff2'),
+		url('../fonts/Gotham/GothamRounded-Bold.woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: fallback;
+}
+
+// Gotham Book
+@font-face {
+    font-family: 'Gotham';
+	src: url('../fonts/Gotham/GothamRounded-Book.woff2'),
+		url('../fonts/Gotham/GothamRounded-Book.woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: fallback;
+}
+
+// Montserrat
+@font-face {
+    font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Hairline.woff2'),
+		url('../fonts/Montserrat/Montserrat-Hairline.woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: fallback;
+}
+
+// Effra Bold
+// @font-face {
+//     font-family: 'Effra';
+// 	src: url('../fonts/Effra/Effra-Bold.woff2'),
+// 		url('../fonts/Effra/Effra-Bold.woff');
+// 	font-weight: 700;
+// 	font-style: normal;
+// 	font-display: fallback;
+// }

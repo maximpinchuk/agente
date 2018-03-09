@@ -1,0 +1,43 @@
+.section__title {
+    margin: 0 0 5px 0;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    &.blue {
+        color: #1480c3;
+    }
+
+    &.white {
+        color: #ffffff;
+    }
+
+    &.light-blue {
+        color: #1380c4;
+    }
+
+    &.dark {
+        color: #30313a;
+    }
+}
+
+.section__subtitle {
+    margin: 0;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+
+    &.light-grey {
+        color: #787e86;
+    }
+
+    &.white {
+        color: #ffffff;
+        span {
+            color: #0e1625;
+        }
+    }
+}

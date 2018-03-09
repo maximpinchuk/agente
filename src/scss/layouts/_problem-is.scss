@@ -1,0 +1,92 @@
+.problem-is {
+    padding: 110px 0 140px 0;
+    background-color: #1380c4;
+}
+
+.problem-wrapper {
+    margin-top: 40px;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 130px;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+.problem-item {
+    width: 70%;
+    margin: 90px auto;
+    padding: 0 15px;
+    @media screen and (min-width: 768px) {
+        width: 30%;
+        margin: 0;
+    }
+    @media screen and (min-width: 992px) {
+        width: 33.333333%;
+    }
+
+    .problem-item__icon {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 210px;
+
+        .icon-group {
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            &.too-slow {
+                height: 180px;
+            }
+            &.too-hard {
+                height: 210px;
+                .icon-front {
+                    img {
+                        margin-top: 35px;
+                        margin-right: 12px;
+                    }
+                }
+            }
+            &.too-costly {
+                height: 200px;
+                .icon-front {
+                    img {
+                        margin-top: 35px;
+                        margin-right: 12px;
+                    }
+                }
+            }
+        }
+
+        .icon-front {
+            position: absolute;
+            z-index: 2;
+        }
+        .icon-back {
+            position: absolute;
+            z-index: 1;
+        }
+    }
+
+    .problem-item__title {
+        margin: 20px 0 15px 0;
+        font-family: "Montserrat", "Arial", sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #0e1625;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .problem-item__descr {
+        display: block;
+        max-width: 270px;
+        margin: 15px auto 15px auto;
+        font-family: "Montserrat", "Arial", sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        color: #ffffff;
+    }
+}
